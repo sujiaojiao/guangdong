@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<link rel="stylesheet" href="css/reset.css" />
+		<link rel="stylesheet" href="css/animate.css" />
+		<title></title>
+		<style>
+		#wrapper{
+			width: 100%;
+			height: 1200px;
+			
+		}
+		.background_pic{
+			width: 100%;
+			height: 1300px;
+			background: url(img/bg.png) no-repeat;
+			padding-top: 120px;
+			
+		}
+	
+		.logo_pic{
+			width: 60%;
+			/*background:green;*/
+			text-align: center;
+			
+			/*display: inline-block;*/
+		}
+		.logo_pic img{
+			display: inline-block;
+			opacity: 0.8;		
+		}
+		
+		img:hover{
+			
+			transform-style: preserve-3d;
+			animation:change 0.5s ;
+		}
+		@-webkit-keyframes change{
+			0%{
+				transform: translateY(-30px);
+				
+			}
+			20%{
+				transform: translateY(0px);
+			}
+			50%{
+				transform: translateY(30px);
+			}
+			100%{
+				
+				transform: translateY(0px);
+			}
+		}
+		.logo_pic h1{
+			display: inline-block;
+		}
+
+		#logo_font{
+			font-size: 36px;
+			color:#fff;
+			font-family:arial;
+			font-weight: bold;
+			margin-left: 6px;;
+		}
+				
+	  
+		.clear{
+			clear: both;
+		}
+		.main_right li:nth-child(2){
+			position: relative;
+		}
+
+		.font,.font2{
+			width: 140px;
+			height: 16px;
+			position: absolute;
+			top: 100px;
+			left: 66px;
+			color: #fff;
+			text-align: center;
+			z-index: 4;
+			overflow: hidden;
+			line-height: 24px;
+			
+		}
+		.font h6{		
+			animation: out 2s infinite linear;
+		}
+		.font2 h6{
+			animation: out 2s 1s infinite linear;
+		}
+		
+		
+		@-webkit-keyframes out{
+			20%{transform:translateY(-20px)}
+	        40%{transform:translateY(0px)}
+			60%{transform:translateY(20px)}
+			100%{transform:translateY(0px)}
+		}
+			
+					
+		@media only screen and (min-width: 1500px) {
+			.background_pic{
+			width: 100%;
+			height: 1000px;
+			background: url(img/bg.png) no-repeat;
+			background-size: 100% 1000px;
+			position: relative;
+		   }
+		   .main{
+			width: 100%;
+			height: 500px;
+			/*background: pink;*/
+			margin-top: 12px;
+			text-align: center;
+			
+		}
+	
+		.main_top{			
+			width: 940px;
+			height: 500px;
+			/*background: yellowgreen;*/
+			margin-top: 12px;
+			margin: auto;
+		}
+		.main_left{
+			width: 460px;
+			height: 426px;
+			/*background: gray;*/
+			margin-top: 12px;
+			float: left;
+			margin: auto;
+			margin-left: 4px;			
+		}
+		.main_left li,.main_right li{
+			float: left;
+		}
+		.main_right{
+			width: 460px;
+			height: 426px;
+			/*background: gray;*/
+			margin-top: 12px;
+			float: left;
+			margin: auto;
+			margin-left: 4px;			
+		}
+		  
+		
+		.pic_1{
+			width: 278px;
+			height: 140px;
+			/*background: blue;*/
+		}
+		.pic_2{
+			width: 162px;
+			height: 140px;
+			/*background: blue;*/
+		}
+		.pic_3{
+			width: 178px;
+			height: 140px;
+			/*background: blue;*/
+		}
+		.pic_4{
+			width: 262px;
+			height: 140px;
+			/*background: blue;*/		
+		}
+		.pic_3 img{
+			width: 100%;
+			height: 100%;
+		}
+		.pic_4 img{
+			width: 100%;
+			height: 100%;
+		}
+		.footer{
+			width: 600px;
+			height: 20px;
+			margin: auto;		
+			margin-top: 46px;
+					
+		}
+		}
+	
+	@media only screen and (min-width: 630px) and (max-width: 1500px) {
+		.main{
+			width: 100%;
+			height: 500px;
+			/*background: pink;*/
+			margin-top: 12px;
+			margin: auto;
+			
+		}
+		.main_top{			
+			width: 940px;
+			height: 500px;
+			/*background: yellowgreen;*/
+			margin-top: 12px;
+			margin: auto;
+		}
+		.main_left{
+			width: 460px;
+			height: 426px;
+			/*background: gray;*/
+			margin-top: 12px;
+			float: left;
+			margin-left: 4px;			
+		}
+		.main_left li,.main_right li{
+			float: left;
+			margin-top: 2px;;
+		}
+		.main_left li{
+			margin-left: 10px;
+			
+		}
+		.main_right{
+			width: 460px;
+			height: 426px;
+			/*background: gray;*/
+			margin-top: 12px;
+			float: left;
+			margin-left: 4px;			
+		}
+		
+		
+		.footer{
+			width: 600px;
+			height: 20px;	
+			margin: auto;			
+			margin-top: 46px;;
+			
+		}
+		.pic_1{
+			width: 278px;
+			height: 140px;
+			/*background: blue;*/
+		}
+		.pic_2{
+			width: 162px;
+			height: 140px;
+			/*background: blue;*/
+		}
+		.pic_3{
+			width: 178px;
+			height: 140px;
+			/*background: blue;*/
+		}
+		.pic_4{
+			width: 262px;
+			height: 140px;
+			/*background: blue;*/		
+		}
+		.pic_1 img{
+			width: 99.8%;
+			height: 100%;
+		}
+		.pic_2 img{
+			width: 100%;
+			height: 100%;
+		}
+		.pic_3 img{
+			width: 99%;
+			height: 100%;
+		}
+		.pic_4 img{
+			width: 100%;
+			height: 100%;
+		}
+			
+	}
+		
+		
+	@media only screen  and (max-width: 630px) {
+				.background_pic{
+				background: url(img/bg.png) no-repeat;
+				background-size: 100% 1400px;
+			   }
+			   .main_top{			
+				width: 90%;
+				height: 500px;
+				/*background: yellowgreen;*/
+				margin-top: 12px;
+				margin: auto;
+			}
+				.main_left{
+					width: 100%;
+					height: 360px;
+					/*background: gray;*/
+					margin-top: 12px;
+					/*float: left;*/
+					margin-left: 4px;			
+				}
+				.main_left li,.main_right li{
+					float: left;
+				}
+				.main_right{
+					width: 100%;
+					height: 360px;
+					/*background: gray;*/
+					margin-top: 2px;
+					margin-left: 4px;			
+				}
+				.footer{
+					width: 90%;
+					height: 20px;	
+					margin: auto;			
+					margin-top: 336px;;			
+				}
+				.footer img{
+					width: 100%;
+							
+				}
+		
+				#logo_font{
+					font-size: 26px;
+					
+				}
+				
+				.pic_1{
+				width: 63%;
+				height: 120px;
+				/*background: blue;*/
+				}
+				.pic_2{
+					width: 35%;
+					height: 120px;
+					/*background: blue;*/
+				}
+				.pic_3{
+					width: 40%;
+					height: 120px;
+					/*background: blue;*/
+					position: relative;
+				}
+				.pic_4{
+					width: 58.4%;
+					height: 120px;
+					/*background: blue;*/		
+				}
+				.pic_1 img{
+					width: 99%;
+					height: 100%;
+				}
+				.pic_2 img{
+					width: 100%;
+					height: 100%;
+				}
+				.pic_3 img{
+					width: 99%;
+					height: 100%;
+					
+				}
+				.pic_4 img{
+					width: 99%;
+					height: 100%;
+				}
+
+			
+		
+	}
+		</style>
+	</head>
+	<body>
+		<div id="wrapper">
+			<div class="background_pic">
+				<div class="logo_pic">
+					<!--<div>-->
+						<img src="img/logo.png" />
+						<h1 id="logo_font">广东旅游欢迎您</h1>
+					<!--</div>-->
+				</div>
+				<div class="main">
+					<div class="main_top">
+					<div class="main_left ">
+						<ul >
+							<li class="pic_1 ">
+								<img src="img/1.png" />
+							</li >
+							<li class="pic_2 imge animated shake">
+								<img src="img/2.png" />
+							</li>
+							<li class="pic_1 imge animated shake">
+								<img src="img/5.png" />
+							</li>
+							<li class="pic_2 imge animated rubberBand">
+								<img src="img/6.png" />
+							</li>
+							<li class="pic_1 imge animated bounceIn">
+								<img src="img/9.png" />
+							</li>
+							<li class="pic_2 imge animated jello">
+								<img src="img/10.png" />
+							</li>
+							<li class="clear"></li>
+						</ul>
+					</div>
+					<div class="main_right">
+						<ul >
+							<li class="pic_3 imge animated zoomIn">
+								<img src="img/3.png" />
+							</li>
+							<li class="pic_4 imge animated bounceIn">
+								<img src="img/4.png" />
+								<div class="font">
+									<h6>广东省旅游局官方微博</h6>
+								</div>
+							</li>
+							<li class="pic_3 imge animated tada">
+								<img src="img/7.png" />
+							</li>
+							<li class="pic_4 imge animated rubberBand">
+								<img src="img/8.png" />
+								<div class="font2">
+									<h6>广东省旅游局官方微博</h6>
+								</div>
+							</li>
+							<li class="pic_3 imge animated bounceIn">
+								<img src="img/11.png" />
+							</li>
+							<li class="pic_4 imge animated shake">
+								<img src="img/12.png" />
+							</li>
+							<li class="clear"></li>
+						</ul>
+					</div>
+					<div class="clear"></div>
+					</div>
+				</div>
+				<div class="footer">
+					<img src="img/footer.png" />
+				</div>
+			</div>
+				
+			</div>
+				
+			
+
+		
+	</body>
+</html>
